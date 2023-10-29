@@ -1,0 +1,196 @@
+.logosup img {
+    padding: 10px;
+    padding-left: 20px;
+    max-height: 40px;
+}
+
+.logosup {
+    background-color: #233040;
+}
+
+.menu {
+    background-color: #364757;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.menu li {
+    float:left;
+    padding-left: 7px;
+    color: white;
+}
+
+.menu button {
+    background: transparent;
+    color: white;
+    border: none;
+}
+
+.supercontainer {
+    background-color: #E9EDF0;
+}
+
+.container{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+.Shop {
+    text-align: center;
+    background-color: #F56600;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.xmasbackground {
+    background-image: url(image/bg-image.png), url(image/bg-img.png);
+    background-color: darkgreen;
+    
+}
+
+.xmasbackground h1 {
+    text-align: center;
+    color:white;
+    padding-top: 65px;
+    padding-bottom: 7px;
+}
+
+.xmasbackground h4 {
+    text-align: center;
+    color: white;
+    padding-bottom: 50px;
+}
+
+.fourimages {
+    background-color: white;    
+}
+
+.fourimages h3 {
+    padding-left: 15px;
+    padding-right: 15px;
+    display: inline-block;
+}
+
+.fourimages h5 {
+    color: #13757F;
+    display: inline-block;
+}
+
+.fourimages ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.fourimages li {
+    float:left;
+    color: white;
+}
+
+#img1 {
+    width: 310px;
+    height: 320px;
+    float: left;
+    padding-right: 35px;
+    padding-left: 25px;
+    padding-bottom: 6px;
+}
+
+#img2 {
+    width: 310px;
+    height: 320px;
+    padding-right: 35px;
+    padding-bottom: 6px;
+}
+
+#img3 {
+    width: 310px;
+    height: 320px;
+    padding-right: 35px;
+    padding-bottom: 6px;
+    }
+
+#img4 {
+    width: 310px;
+    height: 320px;
+    float: right;
+    padding-right: 20px;
+    padding-bottom: 6px;
+}
+
+.longimage {
+    text-align: center;
+}
+
+.longimage img {
+    max-width: 100%;;
+    max-height: fit-content;
+}
+
+
+.longimage h5 {
+    color: #13757F;
+    display: inline-block;
+}
+
+.longimage h3 {
+    padding-left: 15px;
+    padding-right: 15px;
+    display: inline-block;
+}
+
+.longimage2{
+    text-align: center;
+}
+
+.longimage2 img {
+    max-width: 100%;;
+    max-height: fit-content;
+}
+
+.longimage2 h5 {
+    color: #13757F;
+    display: inline-block;
+}
+
+.longimage2 h3 {
+    padding-left: 15px;
+    padding-right: 15px;
+    display: inline-block;
+}
+
+
+.logoinf img {
+    padding: 50px;
+    max-height: 50px; 
+
+}
+
+.logoinf {
+    display: flex;
+    background-color: #233040;
+    align-items: center;
+    justify-content: center;
+}
+
+.backtotop {
+    background-color: #364757;
+    text-align: center;
+}
+
+.backtotop button {
+    background: transparent;
+    color: white;
+    border: none;
+    text-decoration: underline;
+    padding: 6px;
+}
