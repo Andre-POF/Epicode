@@ -1,0 +1,509 @@
+.supercontainer{
+    background-color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+div.topbar div.logo img{
+    width: 150px;
+    height: auto;
+}
+
+div.topbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 130px;
+    background-color: white;
+}
+
+div.topbarright{
+    display: flex;
+    align-items: center;
+}
+
+div.topbarright span{
+    padding:10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+div.icons i{
+    padding:10px;
+}
+
+div.member{
+    padding: 7px;
+    border-style:solid;
+    border-radius:20px;
+    border-width: 1px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+div.topbarright div.user {
+    padding: 5px;
+    border-radius: 50%;
+    width: 23px;
+    height: 23px;
+    background-color: #F4511E;
+    text-align: center;
+    color:white;
+
+}
+
+/* main content */
+
+div.main {
+    background-color:#EEEE;
+    display: flex;
+    height: 100%;
+}
+
+div.main div.content {
+    width: 60%;
+    border-right: solid 1px;
+    border-color: lightgrey;
+    margin-left:100px;
+    padding: 40px;
+    padding-left: unset;
+}
+
+div.main div.sidebar{
+    padding: 40px;
+    width: 40%;
+    margin-right: 100px;
+    padding-right: unset;
+    display: flex;
+    flex-direction: column;
+}
+
+div.twochoices{
+    border-bottom: solid 1px;
+    border-color: lightgrey;
+    display: flex;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+div.twochoices div.following {
+    padding: 7px;
+    color: grey;
+}
+
+
+div.twochoices div.foryou {
+    padding: 7px;
+    color:black;
+    border-bottom: solid 1px black;
+}
+
+div.iteration {
+    display: flex;
+    padding: 20px 0;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+div.iteration div.iterationleft{
+    padding-top: 10px;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+}
+
+div.iteration div.iterationright{
+    /* background-color:black; */
+    width: 25%;
+}
+
+div.iteration div.iterationright img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#redice {
+    width: 25px;
+    height: auto;
+    border-radius: 4px;
+}
+
+div.firsttitle {
+    display: flex;
+    align-items: center;
+}
+
+div.smallpic {
+    padding-right: 10px;
+}
+
+div.text1{
+    font-weight: 500;
+}
+
+div.text1 span{
+    color:grey;
+}
+
+div.greytext {
+    padding-right: 20px;
+    color: grey;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+}
+
+
+div.bigtitle h2{
+    
+    padding-right: 20px;
+    margin:0;
+}
+
+div.info {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+div.infoleft{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+div.dot{
+    background-color: grey;
+    width:2px;
+    height:2px;
+    border-radius: 1px;
+}
+
+div.various{
+    padding:10px;
+}
+
+div.various_alt{
+    padding: 7px;
+    margin: 12px;
+    background-color: lightgrey;
+    border-radius: 17px;
+
+}
+
+div.various1 {
+    padding-left: 0px;
+    padding-right: 10px;
+}
+
+div.inforight{
+    display: flex;
+    align-items:center;
+}
+
+div.inforight i {
+    padding:5px;
+}
+
+div.sidebar{
+    display: flex;
+    flex-direction: column;
+}
+
+div.logos {
+    width: auto;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.logos img{
+    width: 50%;
+    height: 80%;
+    object-fit: contain;
+}
+
+div.logos i{
+    font-size: large;
+    font-weight:100;
+}
+
+div.mediumtiny{
+    display: flex;
+    justify-content: end;
+    width: 105px;
+}
+
+div.tweeter{
+    width: 65px;
+}
+
+div.text2{
+    text-align: center;
+}
+
+div.connect {
+    padding: 5px;
+    border: solid 1px;
+    border-color:grey;
+    border-radius: 25px;
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
+}
+
+div.connect img {
+    width: 15px;
+    padding-right:5px;
+}
+
+div.maybe{
+    color: grey;
+    text-decoration: underline;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+div.bottom-division {
+    border-bottom: solid 1px lightgrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+div.afterline{
+    display: flex;
+    flex-direction: column;
+}
+
+div.recommendedtopics{
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+div.textrecom{
+    font-weight: 600;
+}
+
+div.resultgroup {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-bottom: 25px ;
+}
+
+
+div.results {
+    padding: 10px;
+    margin: 8px;
+    border-radius: 16px;
+    background-color: lightgrey;
+    width: fit-content;
+}
+
+div.who {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+div.wholeft {
+    display: flex;
+    align-items: center;
+}
+
+div.personalphoto {
+    width: 55px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+div.personalphoto img {
+    width: 50px;
+    height: 50px;
+    object-fit: fill;
+    border-radius: 50%;
+}
+
+div.introtext {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+div.name {
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+
+div.profession {
+    font-size: small;
+    color: grey;
+    max-width: 150px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+div.followbtn {
+    border: solid 1px black;
+    width: fit-content;
+    padding:7px;
+    border-radius: 18px;
+    font-size:small;
+}
+
+div.textrecom2{
+    font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+
+
+#redice_down {
+    width: 25px;
+    height: auto;
+    border-radius: 4px;
+}
+
+div.firsttitle_down {
+    max-width: 100%;
+    font-size: smaller;
+    display: flex;
+    align-items: center;
+}
+
+div.smallpic_down {
+    padding-right: 10px;
+}
+
+div.text1_down{
+    font-weight: 500;
+}
+
+div.text1_down span{
+    color:grey;
+}
+
+div.bigtitle_down {
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+
+div.info_down {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.infoleft_down{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+div.dot_down{
+    background-color: grey;
+    width:2px;
+    height:2px;
+    border-radius: 1px;
+}
+
+div.various_down{
+    padding:10px;
+    font-size: smaller;
+}
+
+
+
+div.various1_down {
+    padding-left: 0px;
+    padding-right: 10px;
+    font-size:smaller;
+}
+
+
+
+div.wholeft_down {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+div.personalphoto_down {
+    width: 55px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+div.personalphoto_down img {
+    width: 25px;
+    height: 25px;
+    object-fit: fill;
+    border-radius: 50%;
+}
+
+div.introtext_down {
+    display: flex;
+    flex-direction: column;
+}
+
+div.name_down {
+    font-weight: 500;
+    font-size: small;
+}
+
+
+div.hi {
+    font-weight: 700;
+    margin-top: 8px;
+}
+
+div.star {
+    font-size: xx-small;
+}
+
+div.seeall{
+    color:green;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+
+div.resultgroup_down {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-bottom: 25px ;
+}
+
+
+div.results_down {
+    color: grey;
+    padding: 5px;
+    width: fit-content;
+    font-size: smaller;
+}
+
+
